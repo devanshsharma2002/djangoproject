@@ -50,10 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'allauth',
     'allauth.account',
-    'allauth.socialaccount',
-    'allauth.socialaccount.providers.google',  # For Google authentication
-    'allauth.socialaccount.providers.facebook',  # For Facebook authentication
-
+   
     # for crispy forms
     'django_countries',
     'crispy_forms',
